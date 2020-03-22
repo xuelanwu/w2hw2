@@ -1,0 +1,112 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: sticky;
+  top: 0;
+  padding: 15px 120px;
+  z-index: 1;
+}
+
+nav .logo a {
+  color: white;
+  text-decoration-line: none;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+
+nav .link-container ul li {
+  display: inline;
+  padding-left: 15px;
+}
+
+nav .link-container ul li a {
+  color: rgba(225, 225, 225, 0.5);
+  text-decoration-line: none;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+
+header {
+  position: relative;
+  bottom: 80px;
+  width: 100%;
+  background-color: orangered;
+  padding-top: 210px;
+  padding-bottom: 180px;
+}
+
+header .heading {
+  color: white;
+  text-align: center;
+  font-weight: 800;
+}
+
+header .heading h1 {
+  font-size: 6rem;
+  margin: 0;
+}
+
+header .heading p {
+  font-size: 4rem;
+  margin: 0px;
+}
+
+header .heading button {
+  font-size: 15px;
+  font-weight: 700;
+  color: white;
+  letter-spacing: 0.1rem;
+  background-color: #ee0979;
+  border-color: #ee0979;
+  border-radius: 50rem;
+  padding: 1.5rem 3rem;
+  margin-top: 50px;
+}
+
+.content {
+  display: grid;
+  justify-content: space-evenly;
+  width: 100%;
+  grid-template-columns: auto auto;
+  row-gap: 150px;
+  margin-bottom: 50px;
+}
+
+.block {
+  height: 450px;
+  width: 450px;
+}
+
+.content .block h2 {
+  font-size: 3.5rem;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.content .block .paragraph {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.block img {
+  height: 450px;
+  width: 450px;
+  border-radius: 50%;
+}
+
+footer {
+  background-color: black;
+  text-align: center;
+  color: white;
+  padding: 45px 0px;
+}
